@@ -107,6 +107,6 @@ proto_library(
 
 proto_library(
     name = "reflection_proto",
-    srcs = ["grpc/reflection/v1/reflection.proto"],
+    srcs = ["grpc/reflection/v1alpha/reflection.proto"],
     visibility = ["//visibility:public"],
 )
